@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sweflow*"]
+exclude = ["tests*"]
+
+[project]
+name = "sweflow"
+version = "0.1.0"
+description = "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lei Zhang", email = "jameszhang2880@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = [
+    "rich",
+    "networkx",
+    "gitpython",
+    "openai",
+    "datasets",
+    "tiktoken",
+    "fluxllm",
+]
+[project.optional-dependencies]
+test = ["pytest"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+# python
+sweflow-schedule-python = "sweflow.extensions.python.schedule:main"
+sweflow-create-docstring = "sweflow.extensions.python.create_docstring:main"
+sweflow-create-specification = "sweflow.extensions.python.create_specification:main"
+sweflow-create-codebase = "sweflow.extensions.python.create_codebase:main"
+sweflow-create-codebase-dev = "sweflow.extensions.python.create_codebase_dev:main"

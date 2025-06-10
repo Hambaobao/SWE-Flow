@@ -6,7 +6,7 @@
 
 ## ✨ Overview
 
-![SWE-Flow Framework](./assets/figures/sweflow-framework.pdf)
+<img src="./assets/figures/sweflow-framework.png" alt="SWE-Flow Framework" style="zoom:80%;" />
 
 **SWE-Flow** is a data-synthesis framework that turns unit tests into fully-verifiable, incremental development tasks.
 It constructs a Runtime Dependency Graph (RDG) to trace function interactions and automatically derives a step-by-step development schedule:
@@ -35,7 +35,7 @@ pip install -e .
 
 ## 🤝 Contributing
 
-Contributions are welcome! A detailed [CONTRIBUTING.md](./CONTITUTING.md) guideline will be added soon. Feel free to open issues or pull requests in the meantime.
+Contributions are welcome! A detailed [CONTRIBUTING.md](./CONTRIBUTING.md) guideline will be added soon. Feel free to open issues or pull requests in the meantime.
 
 
 

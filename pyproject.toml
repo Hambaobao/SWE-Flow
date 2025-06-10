@@ -14,6 +14,11 @@ readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Lei Zhang", email = "jameszhang2880@gmail.com" }]
 requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "rich",
     "networkx",
@@ -25,12 +30,6 @@ dependencies = [
 ]
 [project.optional-dependencies]
 test = ["pytest"]
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
 
 [project.scripts]
 # python

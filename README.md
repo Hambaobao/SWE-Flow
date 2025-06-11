@@ -49,7 +49,15 @@ This repository is licensed under the **MIT** License. See [License](./LICENSE) 
 
 If you use SWE-Flow, please cite:
 ```bibtex
-
+@misc{zhang2025sweflow,
+      title={SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner}, 
+      author={Lei Zhang and Jiaxi Yang and Min Yang and Jian Yang and Mouxiang Chen and Jiajun Zhang and Zeyu Cui and Binyuan Hui and Junyang Lin},
+      year={2025},
+      eprint={2506.09003},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.09003}, 
+}
 ```
 
 

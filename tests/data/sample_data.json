@@ -1,0 +1,45 @@
+{
+    "project": "SWE-Flow",
+    "description": "Synthesizing Software Engineering Data in a Test-Driven Manner",
+    "version": "1.0.0",
+    "components": [
+        {
+            "name": "utils",
+            "files": [
+                "progress.py",
+                "token_utils.py",
+                "merge.py",
+                "make_bench.py"
+            ]
+        },
+        {
+            "name": "extensions",
+            "subcomponents": [
+                {
+                    "name": "python",
+                    "files": [
+                        "create_codebase.py",
+                        "create_codebase_dev.py",
+                        "create_docstring.py",
+                        "create_specification.py",
+                        "rdg.py",
+                        "schedule.py"
+                    ],
+                    "helpers": [
+                        "codebase.py",
+                        "code_utils.py",
+                        "common.py"
+                    ]
+                }
+            ]
+        }
+    ],
+    "test_ids": [
+        "test_token_utils",
+        "test_progress",
+        "test_merge",
+        "test_make_bench",
+        "test_helper",
+        "test_code_utils"
+    ]
+}

@@ -111,10 +111,10 @@ def update_codebase_on_schedule(repo: Repo, schedule: Dict, skeleton_files: List
     # commit the changes
     repo.git.add(all=True)
     repo.git.commit("-m", f"prepare skeleton for step {step}", "--allow-empty")
-    # checkout back to the current branch
-    repo.heads[current_branch].checkout()
     # get commit hash
     base_commit = repo.head.commit.hexsha
+    # checkout back to the current branch
+    repo.heads[current_branch].checkout()
 
     # update reference files
     branch_name = f"step-{step}-reference"

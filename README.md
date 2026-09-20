@@ -1,3 +1,5 @@
+
+
 # SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner
 
 > Official implementation of the ICML 2025 paper: Synthesizing Software Engineering Data in a Test-Driven Manner
@@ -27,15 +29,17 @@ pip install -e .
 ```
 
 
+
 ## 📚 Documentation
 
 - [Dataset Synthesis Pipeline](./docs/pipeline.md)
 
 
 
+
 ## 🤝 Contributing
 
-Contributions are welcome! A detailed [CONTRIBUTING.md](./CONTRIBUTING.md) guideline will be added soon. Feel free to open issues or pull requests in the meantime.
+Contributions are welcome! Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) guideline. Feel free to open issues or pull requests.
 
 
 
